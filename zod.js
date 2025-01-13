@@ -13,7 +13,7 @@ const schema = zod.preprocess(
 app.use(bodyParser.json());
 
 app.get("/", (req, res) => {
-  res.send("zod is here");
+  res.send("zod is here now new comment"); // comment
 });
 
 app.post("/", (req, res) => {
